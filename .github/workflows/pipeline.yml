@@ -28,4 +28,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist  # Cambia a ./dist porque es la carpeta generada que contiene index.html y bundle.js
+          publish_dir: ./dist # Cambia a ./dist porque es la carpeta generada que contiene index.html y bundle.js
